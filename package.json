@@ -10,10 +10,11 @@
     },
     "babel": {
         "presets": [
-            "es2015"
+            "env"
         ],
         "plugins": [
-            "transform-object-rest-spread"
+            "transform-object-rest-spread",
+            "transform-regenerator"
         ],
         "only": [
             "src/*",
@@ -84,5 +85,9 @@
         "redux": "^3.7.1",
         "rimraf": "^2.5.4",
         "webpack": "^2.6.1"
+    },
+    "dependencies": {
+        "babel-plugin-transform-regenerator": "^6.26.0",
+        "babel-preset-env": "^1.7.0"
     }
 }

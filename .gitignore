@@ -4,6 +4,6 @@ node_modules
 lib
 coverage
 dist
-es
 _book
 yarn.lock
+es
